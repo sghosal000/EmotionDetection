@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block pname %}{{pname}}{% endblock pname %}
+{% block content %}
+<div class="container p-5" style="max-width:40%">
+    <div class="border border-1 rounded-2 text-center mt-5 p-3 ">
+        <h1 class="text-dark">Login</h1>
+        <hr>
+        <form action="">
+            <input type="email" placeholder="email" class="mb-3 form-control">
+            <input type="password" placeholder="password" class="mb-3 form-control">
+            <input type="submit" value="login" class="btn btn-dark form-control">
+        </form>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container p-5" style="max-width:40%">
+    <div class="border border-1 rounded-2 text-center mt-5 p-3 ">
+        <h1 class="text-dark">Sign-Up</h1>
+        <hr>
+        <form action="">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" placeholder="First Name" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Last Name" class="form-control">
+                </div>
+            </div>
+            <input type="email" placeholder="Email" class="mb-3 form-control">
+            <input type="password" placeholder="Password" class="mb-3 form-control">
+            <input type="password" placeholder="Confirm Password" class="mb-3 form-control">
+            <input type="submit" value="Sign Up" class="btn btn-dark form-control">
+        </form>
+    </div>
+</div>
+
+
+{% endblock content %}
