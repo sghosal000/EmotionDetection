@@ -2,8 +2,8 @@
 db.sqlite3
 
 # tensorflow
-logs/*
-ML/data/*
+logs/
+data/
 
 # notebook checkpoints
 .ipynb_checkpoints
