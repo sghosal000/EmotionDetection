@@ -1,1 +1,9 @@
+# database
 db.sqlite3
+
+# tensorflow
+logs/*
+ML/data/*
+
+# notebook checkpoints
+.ipynb_checkpoints
